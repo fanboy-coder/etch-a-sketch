@@ -1,0 +1,46 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: "Audiowide", sans-serif;
+}
+
+#grid-container {
+    display: grid;
+    position: absolute;
+    width: 66vh;
+    height: 66vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 40px solid #800020;
+    margin: auto;
+}
+
+.item {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.item-hover {
+    border: 1px solid white;
+    background-color: black;
+}
+
+.new-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
